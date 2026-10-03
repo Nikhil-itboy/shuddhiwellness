@@ -1,0 +1,1696 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shuddhi Wellness by Dr. Garima Sharma — Multi-Speciality Ayurvedic Hospital | Panchakarma Centre in Dehradun</title>
+    <meta name="description" content="Shuddhi Wellness by Dr. Garima Sharma — Multi-Speciality Ayurvedic Hospital, Panchakarma Centre & Ayurvedic Centre in Dehradun. Authentic Ayurvedic treatments, Panchakarma detox, weight management, skin & hair care, spondylosis, allergic rhinitis care, yoga & meditation."
+    />
+    <meta name="keywords" content="Shuddhi Wellness, Dr Garima Sharma, Ayurvedic Hospital Dehradun, Panchakarma Centre, Ayurvedic Centre, Panchakarma detox, weight management, skin care, hair care, spondylosis, allergic rhinitis" />
+    <meta name="author" content="Shuddhi Wellness" />
+    <meta property="og:title" content="Shuddhi Wellness — Multi-Speciality Ayurvedic Hospital | Panchakarma Centre" />
+    <meta property="og:description" content="A holistic place for complete wellness. Refresh, Relax, Revitalize — naturally." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://shuddhiwellness.co.in" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;1,600&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,600&family=Rajdhani:wght@400;500;600;700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="therapy.css" />
+</head>
+
+<body>
+
+    <!-- Therapy drop animation — screen top-left me fixed -->
+    <div class="hero-visual therapy-stage" id="therapyStage" aria-hidden="true">
+        <img src="container.png" alt="" class="therapy-container-img" />
+        <img src="person.png" alt="" class="therapy-person-img" />
+        <span class="therapy-ripple therapy-ripple-1" aria-hidden="true"></span>
+        <span class="therapy-ripple therapy-ripple-2" aria-hidden="true"></span>
+        <img src="drop.png" alt="" class="therapy-drop therapy-drop-1" />
+        <img src="drop.png" alt="" class="therapy-drop therapy-drop-2" />
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor" id="cursor">
+        <div class="cursor-dot"></div>
+        <div class="cursor-ring"></div>
+        <span class="cursor-text"></span>
+    </div>
+
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-logo"><img src="subh-logo.png" alt="Shuddhi Wellness Logo" class="site-logo"></div>
+            <div class="preloader-bar">
+                <div class="preloader-fill"></div>
+            </div>
+            <div class="preloader-tagline">Healing Naturally</div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <header class="nav" id="nav">
+        <div class="nav-inner">
+            <a href="#" class="nav-logo" id="navLogo">
+                <img src="subh-logo-horizontal.png" alt="Shuddhi Wellness Logo" class="site-logo horizontal-logo">
+            </a>
+            <nav class="nav-links" id="navLinks">
+                <a href="#" class="nav-link active" data-hover="HOME">HOME</a>
+                <a href="#about" class="nav-link" data-hover="ABOUT US">ABOUT US</a>
+                <a href="#events" class="nav-link" data-hover="SERVICES">SERVICES</a>
+                <a href="#portfolio" class="nav-link" data-hover="GALLERY">GALLERY</a>
+                <a href="#events" class="nav-link" data-hover="PACKAGES">PACKAGES</a>
+                <a href="#blog" class="nav-link" data-hover="BLOG">BLOG</a>
+                <a href="#contact" class="nav-link" data-hover="CONTACT">CONTACT</a>
+            </nav>
+            <div class="nav-actions">
+                <a href="#contact" class="nav-btn-quote">
+                    <span>Book Consultation</span>
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <path d="M9 18l6-6-6-6" />
+          </svg>
+                </a>
+                <a href="tel:+919876543210" class="nav-btn-call" aria-label="Call Us">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.02-.24c1.12.37 2.33.57 3.57.57a1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.45.57 3.57a1 1 0 01-.25 1.02l-2.2 2.2z" />
+          </svg>
+                </a>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu-inner">
+            <a href="#" class="mobile-link">HOME</a>
+            <a href="#about" class="mobile-link">ABOUT US</a>
+            <a href="#events" class="mobile-link">SERVICES</a>
+            <a href="#portfolio" class="mobile-link">GALLERY</a>
+            <a href="#events" class="mobile-link">PACKAGES</a>
+            <a href="#blog" class="mobile-link">BLOG</a>
+            <a href="#contact" class="mobile-link">CONTACT</a>
+            <a href="#contact" class="mobile-cta">Book Consultation →</a>
+        </div>
+    </div>
+
+    <!-- ======================== HERO SECTION ======================== -->
+    <section class="hero" id="hero">
+        <!-- Background Slides (spanning full screen under header) -->
+        <div class="hero-bg-media active" style="background-image: url('slide-img-01.png');" data-slide="0"></div>
+        <div class="hero-bg-media" style="background-image: url('slide-img-02.png');" data-slide="1"></div>
+        <div class="hero-bg-media" style="background-image: url('slide-img-03.png');" data-slide="2"></div>
+        <div class="hero-bg-media" style="background-image: url('slide-img-04.png');" data-slide="3"></div>
+        <div class="hero-overlay"></div>
+
+        <!-- Navigation Arrows -->
+        <button class="hero-arrow hero-arrow-left" aria-label="Previous slide">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+        <path d="M15 18l-6-6 6-6" />
+      </svg>
+    </button>
+        <button class="hero-arrow hero-arrow-right" aria-label="Next slide">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+        <path d="M9 18l6-6-6-6" />
+      </svg>
+    </button>
+
+        <div class="hero-container">
+            <div class="hero-main-layout">
+                <!-- Slide 1: Wellness -->
+                <div class="hero-slide-content active" data-slide="0">
+                    <div class="hero-left-col">
+                        <div class="hero-tagline-wrap">
+                            <span class="tag-line"></span>
+                            <span class="tag-text">REFRESH &bull; RELAX &bull; REVITALIZE</span>
+                            <span class="tag-line"></span>
+                        </div>
+
+                        <h1 class="hero-heading">
+                            <span class="hero-title-main">A Holistic Place for</span><br>
+                            <span class="hero-title-main">Complete Wellness</span>
+                            <span class="hero-title-script">Shuddhi Wellness</span>
+                        </h1>
+
+                        <div class="hero-ornament-divider">
+                            <span class="orn-line"></span>
+                            <span class="orn-icon">
+                <svg width="28" height="14" viewBox="0 0 28 14" fill="none">
+                  <path
+                    d="M14 3C12.5 0.8 9.5 0.8 7.5 2.8C5.5 4.8 5.5 7.8 7.5 9.8L14 13.5L20.5 9.8C22.5 7.8 22.5 4.8 20.5 2.8C18.5 0.8 15.5 0.8 14 3Z"
+                    fill="#ECB841" />
+                  <circle cx="2" cy="7" r="1.5" fill="#ECB841" />
+                  <circle cx="26" cy="7" r="1.5" fill="#ECB841" />
+                </svg>
+              </span>
+                            <span class="orn-line"></span>
+                        </div>
+
+                        <p class="hero-subtext">Multi-Speciality Ayurvedic Hospital, Panchakarma Centre & Ayurvedic Centre in Dehradun — authentic healing for body, mind and soul.
+                        </p>
+
+                        <div class="hero-btn-group">
+                            <a href="#events" class="hero-btn-primary">
+                                <span>Explore Treatments</span>
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <path d="M9 18l6-6-6-6" />
+                </svg>
+                            </a>
+                            <a href="#blog" class="hero-btn-secondary">
+                                <span class="play-btn-circle">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor">
+                    <polygon points="6 4 20 12 6 20 6 4" />
+                  </svg>
+                </span>
+                                <span>Our Healing Story</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 2: Panchakarma -->
+                <div class="hero-slide-content" data-slide="1">
+                    <div class="hero-left-col">
+                        <div class="hero-tagline-wrap">
+                            <span class="tag-line"></span>
+                            <span class="tag-text">DETOX &bull; BALANCE &bull; REJUVENATE</span>
+                            <span class="tag-line"></span>
+                        </div>
+
+                        <h1 class="hero-heading">
+                            <span class="hero-title-main">Panchakarma</span><br>
+                            <span class="hero-title-main">Detox & Healing</span>
+                            <span class="hero-title-script">Panchakarma Centre</span>
+                        </h1>
+
+                        <div class="hero-ornament-divider">
+                            <span class="orn-line"></span>
+                            <span class="orn-icon">
+                <svg width="28" height="14" viewBox="0 0 28 14" fill="none">
+                  <path
+                    d="M14 3C12.5 0.8 9.5 0.8 7.5 2.8C5.5 4.8 5.5 7.8 7.5 9.8L14 13.5L20.5 9.8C22.5 7.8 22.5 4.8 20.5 2.8C18.5 0.8 15.5 0.8 14 3Z"
+                    fill="#ECB841" />
+                  <circle cx="2" cy="7" r="1.5" fill="#ECB841" />
+                  <circle cx="26" cy="7" r="1.5" fill="#ECB841" />
+                </svg>
+              </span>
+                            <span class="orn-line"></span>
+                        </div>
+
+                        <p class="hero-subtext">Classical Vamana, Virechana, Basti, Nasya & Raktamokshana therapies with herbal oils — remove toxins naturally and restore balance.
+                        </p>
+
+                        <div class="hero-btn-group">
+                            <a href="#events" class="hero-btn-primary">
+                                <span>Explore Treatments</span>
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <path d="M9 18l6-6-6-6" />
+                </svg>
+                            </a>
+                            <a href="#blog" class="hero-btn-secondary">
+                                <span class="play-btn-circle">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor">
+                    <polygon points="6 4 20 12 6 20 6 4" />
+                  </svg>
+                </span>
+                                <span>Our Healing Story</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 3: Ayurvedic Hospital -->
+                <div class="hero-slide-content" data-slide="2">
+                    <div class="hero-left-col">
+                        <div class="hero-tagline-wrap">
+                            <span class="tag-line"></span>
+                            <span class="tag-text">ROOT-CAUSE &bull; NATURAL &bull; HOLISTIC</span>
+                            <span class="tag-line"></span>
+                        </div>
+
+                        <h1 class="hero-heading">
+                            <span class="hero-title-main">Care for Chronic &</span><br>
+                            <span class="hero-title-main">Lifestyle Disorders</span>
+                            <span class="hero-title-script">Ayurvedic Hospital</span>
+                        </h1>
+
+                        <div class="hero-ornament-divider">
+                            <span class="orn-line"></span>
+                            <span class="orn-icon">
+                <svg width="28" height="14" viewBox="0 0 28 14" fill="none">
+                  <path
+                    d="M14 3C12.5 0.8 9.5 0.8 7.5 2.8C5.5 4.8 5.5 7.8 7.5 9.8L14 13.5L20.5 9.8C22.5 7.8 22.5 4.8 20.5 2.8C18.5 0.8 15.5 0.8 14 3Z"
+                    fill="#ECB841" />
+                  <circle cx="2" cy="7" r="1.5" fill="#ECB841" />
+                  <circle cx="26" cy="7" r="1.5" fill="#ECB841" />
+                </svg>
+              </span>
+                            <span class="orn-line"></span>
+                        </div>
+
+                        <p class="hero-subtext">Ayurvedic care for diabetes, spondylosis, joint pain, allergic rhinitis, headache, skin & hair concerns — under the guidance of Dr. Garima Sharma.
+                        </p>
+
+                        <div class="hero-btn-group">
+                            <a href="#events" class="hero-btn-primary">
+                                <span>Explore Treatments</span>
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <path d="M9 18l6-6-6-6" />
+                </svg>
+                            </a>
+                            <a href="#blog" class="hero-btn-secondary">
+                                <span class="play-btn-circle">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor">
+                    <polygon points="6 4 20 12 6 20 6 4" />
+                  </svg>
+                </span>
+                                <span>Our Healing Story</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 4: Complete Wellness -->
+                <div class="hero-slide-content" data-slide="3">
+                    <div class="hero-left-col">
+                        <div class="hero-tagline-wrap">
+                            <span class="tag-line"></span>
+                            <span class="tag-text">YOGA &bull; DIET &bull; MEDITATION</span>
+                            <span class="tag-line"></span>
+                        </div>
+
+                        <h1 class="hero-heading">
+                            <span class="hero-title-main">Weight, Skin, Hair</span><br>
+                            <span class="hero-title-main">Mind & Soul</span>
+                            <span class="hero-title-script">Complete Wellness</span>
+                        </h1>
+
+                        <div class="hero-ornament-divider">
+                            <span class="orn-line"></span>
+                            <span class="orn-icon">
+                <svg width="28" height="14" viewBox="0 0 28 14" fill="none">
+                  <path
+                    d="M14 3C12.5 0.8 9.5 0.8 7.5 2.8C5.5 4.8 5.5 7.8 7.5 9.8L14 13.5L20.5 9.8C22.5 7.8 22.5 4.8 20.5 2.8C18.5 0.8 15.5 0.8 14 3Z"
+                    fill="#ECB841" />
+                  <circle cx="2" cy="7" r="1.5" fill="#ECB841" />
+                  <circle cx="26" cy="7" r="1.5" fill="#ECB841" />
+                </svg>
+              </span>
+                            <span class="orn-line"></span>
+                        </div>
+
+                        <p class="hero-subtext">Personalized wellness plans with obesity & weight management, yoga, meditation and nutritional guidance — for lasting health and beauty.
+                        </p>
+
+                        <div class="hero-btn-group">
+                            <a href="#events" class="hero-btn-primary">
+                                <span>Explore Treatments</span>
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <path d="M9 18l6-6-6-6" />
+                </svg>
+                            </a>
+                            <a href="#blog" class="hero-btn-secondary">
+                                <span class="play-btn-circle">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor">
+                    <polygon points="6 4 20 12 6 20 6 4" />
+                  </svg>
+                </span>
+                                <span>Our Healing Story</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slider Dots -->
+        <div class="hero-slider-dots">
+            <span class="h-dot active" data-slide="0"></span>
+            <span class="h-dot" data-slide="1"></span>
+            <span class="h-dot" data-slide="2"></span>
+            <span class="h-dot" data-slide="3"></span>
+        </div>
+
+        <!-- Bottom Floating Service Bar -->
+        <div class="hero-service-dock-wrap">
+            <div class="hero-service-dock">
+                <a href="#events" class="dock-item">
+                    <div class="dock-icon">
+                        <svg viewBox="0 0 54 54" fill="none">
+              <path d="M22 8c-2.5 3 2.5 4.5 0 7.5" stroke="#ECB841" stroke-width="2.2" stroke-linecap="round" />
+              <path d="M32 8c-2.5 3 2.5 4.5 0 7.5" stroke="#ECB841" stroke-width="2.2" stroke-linecap="round" />
+              <path d="M10 28h34c0 9-7 14-17 14S10 37 10 28Z" fill="#E3EDDA" stroke="#04462E" stroke-width="2.5"
+                stroke-linejoin="round" />
+              <path d="M27 41v-9c0-5 4-8 9-9-1 5-4 8-9 9" fill="#04462E" />
+              <path d="M27 32c-1-3-3-5-6-6" stroke="#E3EDDA" stroke-width="1.4" stroke-linecap="round" />
+              <path d="M8 28h38" stroke="#04462E" stroke-width="2.5" stroke-linecap="round" />
+              <path d="M18 46h18" stroke="#ECB841" stroke-width="2" stroke-linecap="round" />
+            </svg>
+                    </div>
+                    <span class="dock-label">Panchakarma</span>
+                </a>
+
+                <a href="#events" class="dock-item">
+                    <div class="dock-icon">
+                        <svg viewBox="0 0 54 54" fill="none">
+              <path d="M29 27 41 13" stroke="#ECB841" stroke-width="3.4" stroke-linecap="round" />
+              <circle cx="42" cy="12" r="3.2" fill="#ECB841" />
+              <path d="M12 28h30c0 8-6 13-15 13S12 36 12 28Z" fill="#E3EDDA" stroke="#04462E" stroke-width="2.5"
+                stroke-linejoin="round" />
+              <path d="M10 28h34" stroke="#04462E" stroke-width="2.5" stroke-linecap="round" />
+              <path d="M20 33c2-3 5-4 8-4-1 3-4 5-8 4Z" fill="#04462E" />
+              <path d="M33 44c3 0 6-2 7-5" stroke="#ECB841" stroke-width="2" stroke-linecap="round" />
+              <circle cx="15" cy="44" r="1.6" fill="#ECB841" />
+            </svg>
+                    </div>
+                    <span class="dock-label">Ayurveda<br>Therapy</span>
+                </a>
+
+                <a href="#events" class="dock-item">
+                    <div class="dock-icon">
+                        <svg viewBox="0 0 54 54" fill="none">
+              <rect x="13" y="24" width="28" height="18" rx="4" stroke="#04462E" stroke-width="2.5" />
+              <path d="M18 24v-3h18v3" stroke="#04462E" stroke-width="2.5" stroke-linecap="round" />
+              <circle cx="27" cy="33" r="5.5" stroke="#ECB841" stroke-width="2.2" />
+              <path d="M27 33l2.5-3" stroke="#04462E" stroke-width="2" stroke-linecap="round" />
+              <path d="M38 43c5 0 8-4 6-9" stroke="#ECB841" stroke-width="2" stroke-linecap="round"
+                stroke-dasharray="3 2.5" />
+              <circle cx="44" cy="32" r="1.6" fill="#04462E" />
+              <circle cx="15" cy="12" r="1.5" fill="#ECB841" />
+            </svg>
+                    </div>
+                    <span class="dock-label">Weight<br>Management</span>
+                </a>
+
+                <a href="#events" class="dock-item">
+                    <div class="dock-icon">
+                        <svg viewBox="0 0 54 54" fill="none">
+              <circle cx="24" cy="29" r="12" stroke="#04462E" stroke-width="2.6" />
+              <circle cx="20" cy="27" r="1.4" fill="#04462E" />
+              <circle cx="28" cy="27" r="1.4" fill="#04462E" />
+              <path d="M20 32c2.5 2.5 5.5 2.5 8 0" stroke="#ECB841" stroke-width="2" stroke-linecap="round" />
+              <path d="M40 10l1.2 3 3 1.2-3 1.2-1.2 3-1.2-3-3-1.2 3-1.2Z" fill="#ECB841" />
+              <path d="M38 25c2-3 5-4 8-4-1 3-4 5-8 4Z" fill="#04462E" />
+              <circle cx="42" cy="34" r="1.5" fill="#ECB841" />
+            </svg>
+                    </div>
+                    <span class="dock-label">Skin Care</span>
+                </a>
+
+                <a href="#events" class="dock-item">
+                    <div class="dock-icon">
+                        <svg viewBox="0 0 54 54" fill="none">
+              <rect x="11" y="12" width="9" height="30" rx="3" fill="#04462E" />
+              <path d="M20 17h12M20 22h14M20 27h14M20 32h14M20 37h12" stroke="#04462E" stroke-width="2.4"
+                stroke-linecap="round" />
+              <path d="M38 10c5 6-4 9 0 15 3 4 2 9-3 11" stroke="#ECB841" stroke-width="2.2" stroke-linecap="round" />
+              <circle cx="40" cy="41" r="1.6" fill="#ECB841" />
+              <circle cx="14" cy="45" r="1.5" fill="#ECB841" />
+            </svg>
+                    </div>
+                    <span class="dock-label">Hair Care</span>
+                </a>
+
+                <a href="#events" class="dock-item">
+                    <div class="dock-icon">
+                        <svg viewBox="0 0 54 54" fill="none">
+              <path d="M27 8v38" stroke="#ECB841" stroke-width="2.2" stroke-linecap="round" stroke-dasharray="1 5" />
+              <rect x="19" y="10" width="16" height="7" rx="3.5" stroke="#04462E" stroke-width="2.4" />
+              <rect x="19" y="20" width="16" height="7" rx="3.5" stroke="#04462E" stroke-width="2.4" />
+              <rect x="19" y="30" width="16" height="7" rx="3.5" fill="#E3EDDA" stroke="#04462E" stroke-width="2.4" />
+              <circle cx="27" cy="43" r="3" stroke="#ECB841" stroke-width="2.2" />
+              <path d="M12 15c2-2 4-3 6-3M12 37c2 2 4 3 6 3M42 15c-2-2-4-3-6-3M42 37c-2 2-4 3-6 3" stroke="#ECB841"
+                stroke-width="1.8" stroke-linecap="round" />
+            </svg>
+                    </div>
+                    <span class="dock-label">Joint & Spine<br>Care</span>
+                </a>
+
+                <a href="#events" class="dock-item">
+                    <div class="dock-icon">
+                        <svg viewBox="0 0 54 54" fill="none">
+              <path d="M27 8v9" stroke="#04462E" stroke-width="2.5" stroke-linecap="round" />
+              <path d="M27 17c-3.5 0-5.5 2-6.5 5M27 17c3.5 0 5.5 2 6.5 5" stroke="#04462E" stroke-width="2.2"
+                stroke-linecap="round" />
+              <path d="M19 23c-4 4-5.5 10-3.5 16 3.5 1.5 8 1 10.5-1.5-1-6 0-11-2-14.5" fill="#E3EDDA" stroke="#04462E"
+                stroke-width="2.4" stroke-linejoin="round" />
+              <path d="M35 23c4 4 5.5 10 3.5 16-3.5 1.5-8 1-10.5-1.5 1-6 0-11 2-14.5" fill="#E3EDDA" stroke="#04462E"
+                stroke-width="2.4" stroke-linejoin="round" />
+              <path d="M10 20c1.5-1.5 3-2 4.5-2M44 20c-1.5-1.5-3-2-4.5-2" stroke="#ECB841" stroke-width="2"
+                stroke-linecap="round" />
+              <circle cx="27" cy="44" r="1.6" fill="#ECB841" />
+            </svg>
+                    </div>
+                    <span class="dock-label">Allergy Care</span>
+                </a>
+
+                <a href="#events" class="dock-item">
+                    <div class="dock-icon">
+                        <svg viewBox="0 0 54 54" fill="none">
+              <circle cx="27" cy="13" r="4.5" fill="#ECB841" />
+              <path d="M20 8c2-2 12-2 14 0" stroke="#ECB841" stroke-width="1.8" stroke-linecap="round" />
+              <path d="M19 29c2-4 5-7 8-7s6 3 8 7" stroke="#04462E" stroke-width="2.4" stroke-linecap="round" />
+              <path d="M14 36c4-2.5 8-3.5 13-3.5s9 1 13 3.5c-2 3.5-7 5.5-13 5.5s-11-2-13-5.5Z" fill="#E3EDDA"
+                stroke="#04462E" stroke-width="2.4" stroke-linejoin="round" />
+              <path d="M13 44h28" stroke="#ECB841" stroke-width="2" stroke-linecap="round" />
+            </svg>
+                    </div>
+                    <span class="dock-label">Yoga &<br>Meditation</span>
+                </a>
+
+                <a href="#events" class="dock-item">
+                    <div class="dock-icon">
+                        <svg viewBox="0 0 54 54" fill="none">
+              <path d="M19 9v8c0 6 16 6 16 0V9" stroke="#04462E" stroke-width="2.5" stroke-linecap="round" />
+              <circle cx="19" cy="9" r="2" fill="#04462E" />
+              <circle cx="35" cy="9" r="2" fill="#04462E" />
+              <path d="M27 23v7c0 5-9 5-9 11" stroke="#04462E" stroke-width="2.5" stroke-linecap="round" />
+              <circle cx="18" cy="41" r="4.5" stroke="#ECB841" stroke-width="2.2" />
+              <circle cx="18" cy="41" r="1.4" fill="#04462E" />
+              <path d="M39 29c3-4 7-5 11-5-1 4-5 7-11 5Z" fill="#04462E" />
+              <path d="M39 29c-1 3-3 5-6 6" stroke="#ECB841" stroke-width="1.8" stroke-linecap="round" />
+              <circle cx="44" cy="40" r="1.6" fill="#ECB841" />
+            </svg>
+                    </div>
+                    <span class="dock-label">Health<br>Consultation</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================== ABOUT SECTION ======================== -->
+    <section class="about-section" id="about">
+        <img src="about-left-flower-overlay.png" alt="" class="about-left-flower-overlay" aria-hidden="true" />
+        <div class="about-container">
+            <div class="about-grid">
+                <!-- Left Content -->
+                <div class="about-left-col">
+                    <!-- Top Lotus Motif -->
+                    <div class="about-top-badge">
+                        <svg width="46" height="34" viewBox="0 0 46 34" fill="none">
+              <path d="M23 2C21 8 19 16 23 24C27 16 25 8 23 2Z" fill="#ECB841" stroke="#04462E" stroke-width="1.2"/>
+              <circle cx="23" cy="13" r="2.2" fill="#04462E" />
+              <path d="M23 24C17 21 14 13 18 7C19 13 21 19 23 24Z" fill="#04462E" opacity="0.85"/>
+              <path d="M23 24C29 21 32 13 28 7C27 13 25 19 23 24Z" fill="#04462E" opacity="0.85"/>
+              <path d="M23 24C14 24 10 18 12 13C15 17 19 21 23 24Z" fill="#ECB841" opacity="0.9"/>
+              <path d="M23 24C32 24 36 18 34 13C31 17 27 21 23 24Z" fill="#ECB841" opacity="0.9"/>
+              <path d="M10 27C15 25 20 25 23 27C26 25 31 25 36 27" stroke="#ECB841" stroke-width="1.8" stroke-linecap="round"/>
+              <circle cx="23" cy="27" r="1.5" fill="#04462E"/>
+              <circle cx="7" cy="28" r="1.5" fill="#ECB841"/>
+              <circle cx="39" cy="28" r="1.5" fill="#ECB841"/>
+            </svg>
+                    </div>
+
+                    <span class="about-subtitle">WELCOME TO SHUDDHI WELLNESS</span>
+
+                    <h2 class="about-heading">
+                        <span class="about-heading-main">We Don't Just Treat Symptoms,</span>
+                        <span class="about-heading-script">We Heal Naturally</span>
+                    </h2>
+
+                    <div class="about-ornament-divider">
+                        <span class="about-orn-line"></span>
+                        <span class="about-orn-heart">
+              <svg width="32" height="16" viewBox="0 0 32 16" fill="none">
+                <path d="M16 4C14.5 1.5 11.5 1 9.5 3C7.5 5 7.5 8.2 10 10.8L16 15L22 10.8C24.5 8.2 24.5 5 22.5 3C20.5 1 17.5 1.5 16 4Z" fill="#ECB841" />
+                <circle cx="2" cy="8" r="1.8" fill="#ECB841" />
+                <circle cx="30" cy="8" r="1.8" fill="#ECB841" />
+                <line x1="5" y1="8" x2="7" y2="8" stroke="#ECB841" stroke-width="1.5" stroke-linecap="round"/>
+                <line x1="25" y1="8" x2="27" y2="8" stroke="#ECB841" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+            </span>
+                        <span class="about-orn-line"></span>
+                    </div>
+
+                    <p class="about-desc">
+                        At Shuddhi Wellness, a holistic place for complete wellness<br class="desk-br"> in Dehradun, every treatment is personalized<br class="desk-br"> with authentic Ayurveda, Panchakarma and naturopathy —<br class="desk-br"> under the
+                        guidance of Dr. Garima Sharma.
+                    </p>
+
+                    <!-- 3 Key Features -->
+                    <div class="about-features">
+                        <div class="about-feature-item">
+                            <div class="about-feature-icon-badge">
+                                <svg width="44" height="44" viewBox="0 0 44 44" fill="none">
+                  <circle cx="22" cy="22" r="20" stroke="#CBDCC0" stroke-width="1.5" stroke-dasharray="3 3"/>
+                  <circle cx="22" cy="22" r="17" fill="#EAF2E4" stroke="#04462E" stroke-width="1.2"/>
+                  <circle cx="18" cy="24" r="5.5" stroke="#04462E" stroke-width="1.8"/>
+                  <circle cx="26" cy="21" r="5.5" stroke="#ECB841" stroke-width="1.8"/>
+                  <path d="M26 11.5L27.2 14.5L30.5 15.5L27.2 16.8L26 20L24.8 16.8L21.5 15.5L24.8 14.5Z" fill="#ECB841"/>
+                  <circle cx="14" cy="15" r="1.2" fill="#04462E"/>
+                  <circle cx="30" cy="28" r="1.2" fill="#04462E"/>
+                </svg>
+                            </div>
+                            <span class="about-feature-title">Personalized<br>Treatment</span>
+                        </div>
+
+                        <div class="about-feature-divider"></div>
+
+                        <div class="about-feature-item">
+                            <div class="about-feature-icon-badge">
+                                <svg width="44" height="44" viewBox="0 0 44 44" fill="none">
+                  <circle cx="22" cy="22" r="20" stroke="#CBDCC0" stroke-width="1.5" stroke-dasharray="3 3"/>
+                  <circle cx="22" cy="22" r="17" fill="#EAF2E4" stroke="#04462E" stroke-width="1.2"/>
+                  <path d="M22 13C22 13 25 17 25 20C25 21.6 23.6 23 22 23C20.4 23 19 21.6 19 20C19 17 22 13 22 13Z" fill="#04462E"/>
+                  <path d="M14 20C14 20 18 20 20 22C20 23.6 19 25 17.5 25C15.8 25 14.5 23.6 14.5 22C14.5 20.8 14 20 14 20Z" fill="#ECB841"/>
+                  <path d="M30 20C30 20 26 20 24 22C24 23.6 25 25 26.5 25C28.2 25 29.5 23.6 29.5 22C29.5 20.8 30 20 30 20Z" fill="#ECB841"/>
+                  <circle cx="22" cy="22" r="2.5" fill="#EAF2E4" stroke="#04462E" stroke-width="1.2"/>
+                  <path d="M16 29C19 27 25 27 28 29" stroke="#04462E" stroke-width="1.5" stroke-linecap="round"/>
+                  <circle cx="22" cy="30" r="1.2" fill="#ECB841"/>
+                </svg>
+                            </div>
+                            <span class="about-feature-title">Authentic<br>Therapies</span>
+                        </div>
+
+                        <div class="about-feature-divider"></div>
+
+                        <div class="about-feature-item">
+                            <div class="about-feature-icon-badge">
+                                <svg width="44" height="44" viewBox="0 0 44 44" fill="none">
+                  <circle cx="22" cy="22" r="20" stroke="#CBDCC0" stroke-width="1.5" stroke-dasharray="3 3"/>
+                  <circle cx="22" cy="22" r="17" fill="#EAF2E4" stroke="#04462E" stroke-width="1.2"/>
+                  <circle cx="22" cy="20" r="7.5" stroke="#ECB841" stroke-width="1.6"/>
+                  <path d="M18.5 20L21 22.5L25.5 17" stroke="#04462E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M18 26L16 32L20 30.2L22 32L22 27" fill="#04462E" opacity="0.9"/>
+                  <path d="M26 26L28 32L24 30.2L22 32L22 27" fill="#ECB841" opacity="0.9"/>
+                </svg>
+                            </div>
+                            <span class="about-feature-title">Complete<br>Healing</span>
+                        </div>
+                    </div>
+
+                    <!-- CTA Button -->
+                    <div class="about-cta-wrap">
+                        <a href="#contact" class="about-btn-cta">
+                            <span>Know More About Us</span>
+                            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <path d="M9 18l6-6-6-6" />
+              </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Right Image -->
+                <div class="about-right-col">
+                    <div class="about-img-wrap">
+                        <img src="about-right-img.png" alt="Shuddhi Wellness Ayurvedic Hospital Experience" class="about-right-img" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================== OUR EXPERT DOCTOR ======================== -->
+    <section class="doctor-section" id="doctor">
+        <div class="doctor-bg-glow doctor-bg-glow-1" aria-hidden="true"></div>
+        <div class="doctor-bg-glow doctor-bg-glow-2" aria-hidden="true"></div>
+        <div class="doctor-container">
+            <div class="doctor-grid">
+                <!-- Left : Photo -->
+                <div class="doctor-photo-col">
+                    <div class="doctor-photo-frame">
+                        <div class="doctor-photo-ring" aria-hidden="true"></div>
+                        <div class="doctor-photo-main">
+                            <img src="dr-garima-mam.png" alt="Dr. Garima Sharma — Founder & Chief Vaidya, Shuddhi Wellness" class="doctor-photo-img" />
+                        </div>
+                        <div class="doctor-exp-badge">
+                            <span class="doctor-exp-num">15+</span>
+                            <span class="doctor-exp-text">Years Healing<br />Experience</span>
+                        </div>
+                        <div class="doctor-name-card">
+                            <div class="doctor-name-card-icon">
+                                <i class="fa-solid fa-user-doctor"></i>
+                            </div>
+                            <div>
+                                <strong>Dr. Garima Sharma</strong>
+                                <span>BAMS · Founder & Chief Vaidya</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right : Content -->
+                <div class="doctor-content-col">
+                    <div class="doctor-eyebrow">
+                        <span class="doctor-eyebrow-line"></span>
+                        <span class="doctor-eyebrow-icon">✦</span>
+                        <span class="doctor-eyebrow-text">Our Expert Doctor</span>
+                        <span class="doctor-eyebrow-icon">✦</span>
+                        <span class="doctor-eyebrow-line"></span>
+                    </div>
+
+                    <h2 class="doctor-heading">
+                        <span class="doctor-heading-small">Meet The Healing Hands Behind Shuddhi</span>
+                        <span class="doctor-heading-name">Dr. Garima Sharma</span>
+                    </h2>
+
+                    <p class="doctor-desc">
+                        A trusted Ayurvedic doctor devoted to <strong>root-cause healing</strong> — blending classical Panchakarma, herbal medicines, diet, yoga and meditation into a personal plan for every patient.
+                    </p>
+                    <p class="doctor-desc-light">
+                        From chronic pain, spondylosis & joint disorders to skin, hair, weight, allergy and lifestyle concerns — Dr. Garima guides every case herself, with warmth, patience and authentic Ayurveda.
+                    </p>
+
+                    <div class="doctor-points">
+                        <div class="doctor-point">
+                            <span class="doctor-point-icon" aria-hidden="true">
+                                <i class="fa-solid fa-stethoscope"></i>
+                            </span>
+                            <span class="doctor-point-text">
+                                <strong>Dosha Analysis</strong>
+                                <span>Personal consultation & dosha profile mapping</span>
+                            </span>
+                            <span class="doctor-point-num">01</span>
+                        </div>
+                        <div class="doctor-point">
+                            <span class="doctor-point-icon" aria-hidden="true">
+                                <i class="fa-solid fa-spa"></i>
+                            </span>
+                            <span class="doctor-point-text">
+                                <strong>Panchakarma Therapy</strong>
+                                <span>Classical detox under expert supervision</span>
+                            </span>
+                            <span class="doctor-point-num">02</span>
+                        </div>
+                        <div class="doctor-point">
+                            <span class="doctor-point-icon" aria-hidden="true">
+                                <i class="fa-solid fa-leaf"></i>
+                            </span>
+                            <span class="doctor-point-text">
+                                <strong>Skin · Hair · Weight</strong>
+                                <span>Natural, herbalised care & lifestyle guidance</span>
+                            </span>
+                            <span class="doctor-point-num">03</span>
+                        </div>
+                        <div class="doctor-point">
+                            <span class="doctor-point-icon" aria-hidden="true">
+                                <i class="fa-solid fa-bone"></i>
+                            </span>
+                            <span class="doctor-point-text">
+                                <strong>Joint & Spine Care</strong>
+                                <span>Joint, spine, allergy & headache relief</span>
+                            </span>
+                            <span class="doctor-point-num">04</span>
+                        </div>
+                    </div>
+
+                    <div class="doctor-actions">
+                        <a href="#contact" class="doctor-btn-gold">
+                            <span>Book Consultation</span>
+                            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                                <path d="M9 18l6-6-6-6" />
+                            </svg>
+                        </a>
+                        <a href="tel:+919876543210" class="doctor-btn-outline">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>+91 98765 43210</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================== SECTION 1: HEALING JOURNEY ======================== -->
+    <section class="journey" id="journey">
+        <div class="section-header journey-header">
+            <span class="section-tag">Our Process</span>
+            <h2 class="section-title">Your Healing <em>Journey</em></h2>
+            <p class="section-desc">Five natural steps from your first consultation to lasting wellness.</p>
+        </div>
+
+        <div class="journey-timeline">
+            <div class="journey-line">
+                <div class="journey-line-fill" id="journeyLineFill"></div>
+            </div>
+
+            <div class="journey-stage" data-stage="1">
+                <div class="journey-dot"><span>01</span></div>
+                <div class="journey-card journey-card-right glass-card">
+                    <div class="journey-card-icon">
+                        <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
+              <circle cx="24" cy="24" r="18" opacity="0.3" />
+              <path d="M24 14v10l6 6" />
+              <circle cx="24" cy="24" r="3" fill="currentColor" opacity="0.5" />
+            </svg>
+                    </div>
+                    <h3>Consult</h3>
+                    <p>We listen to your health concerns and understand your body, mind and lifestyle.</p>
+                </div>
+            </div>
+
+            <div class="journey-stage" data-stage="2">
+                <div class="journey-dot"><span>02</span></div>
+                <div class="journey-card journey-card-left glass-card">
+                    <div class="journey-card-icon">
+                        <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
+              <rect x="8" y="8" width="32" height="32" rx="4" opacity="0.3" />
+              <path d="M16 24h16M24 16v16" />
+            </svg>
+                    </div>
+                    <h3>Diagnose</h3>
+                    <p>We identify the root cause with classical Ayurvedic examination and dosha analysis.</p>
+                </div>
+            </div>
+
+            <div class="journey-stage" data-stage="3">
+                <div class="journey-dot"><span>03</span></div>
+                <div class="journey-card journey-card-right glass-card">
+                    <div class="journey-card-icon">
+                        <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M12 36V20l12-8 12 8v16" opacity="0.3" />
+              <rect x="18" y="26" width="12" height="10" />
+              <line x1="24" y1="26" x2="24" y2="36" />
+            </svg>
+                    </div>
+                    <h3>Detox</h3>
+                    <p>Every Panchakarma therapy and herbal plan is carefully personalized for you.</p>
+                </div>
+            </div>
+
+            <div class="journey-stage" data-stage="4">
+                <div class="journey-dot"><span>04</span></div>
+                <div class="journey-card journey-card-left glass-card">
+                    <div class="journey-card-icon">
+                        <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M24 6l4 8h8l-6 6 2 8-8-4-8 4 2-8-6-6h8z" opacity="0.4" />
+            </svg>
+                    </div>
+                    <h3>Heal</h3>
+                    <p>You relax and rejuvenate while our doctors and therapists guide your recovery.</p>
+                </div>
+            </div>
+
+            <div class="journey-stage" data-stage="5">
+                <div class="journey-dot"><span>05</span></div>
+                <div class="journey-card journey-card-right glass-card">
+                    <div class="journey-card-icon">
+                        <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M12 34c0-8 6-14 12-14s12 6 12 14" opacity="0.3" />
+              <circle cx="24" cy="16" r="6" />
+            </svg>
+                    </div>
+                    <h3>Rejuvenate</h3>
+                    <p>We build lasting health with diet, yoga, meditation and lifestyle guidance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================== SECTION 2: TREATMENTS WE OFFER ======================== -->
+    <section class="events" id="events">
+        <div class="section-header">
+            <span class="section-tag">What We Heal</span>
+            <h2 class="section-title">Treatments We <em>Offer</em></h2>
+            <p class="section-desc">From Panchakarma detox to lifestyle care — every treatment is natural and personalized.</p>
+        </div>
+
+        <div class="events-grid">
+            <article class="svc-item">
+                <div class="svc-media">
+                    <div class="svc-circle"><img src="svc-panchakarma.jpg" alt="Panchakarma detox therapy" class="svc-img" loading="lazy" /></div>
+                    <span class="svc-num">01</span>
+                    <span class="svc-icon" aria-hidden="true">✦</span>
+                </div>
+                <div class="svc-body">
+                    <h3 class="svc-title">Panchakarma<br />Detox</h3>
+                    <p class="svc-desc">Classical Vamana, Virechana, Basti & Nasya therapies that flush toxins and reset balance.</p>
+                    <a href="#contact" class="svc-link"><span>Learn More</span>
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7" /></svg>
+                    </a>
+                </div>
+            </article>
+
+            <article class="svc-item">
+                <div class="svc-media">
+                    <div class="svc-circle"><img src="svc-ayurveda-therapy.jpg" alt="Ayurvedic oil therapy" class="svc-img" loading="lazy" /></div>
+                    <span class="svc-num">02</span>
+                    <span class="svc-icon" aria-hidden="true">❋</span>
+                </div>
+                <div class="svc-body">
+                    <h3 class="svc-title">Ayurveda<br />Therapy</h3>
+                    <p class="svc-desc">Abhyanga, Swedana and warm herbal oils that ease stiffness and calm the nerves.</p>
+                    <a href="#contact" class="svc-link"><span>Learn More</span>
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7" /></svg>
+                    </a>
+                </div>
+            </article>
+
+            <article class="svc-item">
+                <div class="svc-media">
+                    <div class="svc-circle"><img src="svc-weight.jpg" alt="Ayurvedic weight management" class="svc-img" loading="lazy" /></div>
+                    <span class="svc-num">03</span>
+                    <span class="svc-icon" aria-hidden="true">◉</span>
+                </div>
+                <div class="svc-body">
+                    <h3 class="svc-title">Weight<br />Management</h3>
+                    <p class="svc-desc">Personalised diet, herbs and Panchakarma support for sustainable, natural weight loss.</p>
+                    <a href="#contact" class="svc-link"><span>Learn More</span>
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7" /></svg>
+                    </a>
+                </div>
+            </article>
+
+            <article class="svc-item">
+                <div class="svc-media">
+                    <div class="svc-circle"><img src="svc-skin.jpg" alt="Ayurvedic skin care" class="svc-img" loading="lazy" /></div>
+                    <span class="svc-num">04</span>
+                    <span class="svc-icon" aria-hidden="true">♥</span>
+                </div>
+                <div class="svc-body">
+                    <h3 class="svc-title">Skin<br />Care</h3>
+                    <p class="svc-desc">Herbal care for acne, pigmentation and allergies — for clear, naturally glowing skin.</p>
+                    <a href="#contact" class="svc-link"><span>Learn More</span>
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7" /></svg>
+                    </a>
+                </div>
+            </article>
+
+            <article class="svc-item">
+                <div class="svc-media">
+                    <div class="svc-circle"><img src="svc-hair.jpg" alt="Ayurvedic hair care" class="svc-img" loading="lazy" /></div>
+                    <span class="svc-num">05</span>
+                    <span class="svc-icon" aria-hidden="true">✿</span>
+                </div>
+                <div class="svc-body">
+                    <h3 class="svc-title">Hair<br />Care</h3>
+                    <p class="svc-desc">Root-cause care for hairfall, dandruff and premature greying with herbal oils.</p>
+                    <a href="#contact" class="svc-link"><span>Learn More</span>
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7" /></svg>
+                    </a>
+                </div>
+            </article>
+
+            <article class="svc-item">
+                <div class="svc-media">
+                    <div class="svc-circle"><img src="svc-joint-spine.jpg" alt="Joint and spine care therapy" class="svc-img" loading="lazy" /></div>
+                    <span class="svc-num">06</span>
+                    <span class="svc-icon" aria-hidden="true">◆</span>
+                </div>
+                <div class="svc-body">
+                    <h3 class="svc-title">Joint & Spine<br />Care</h3>
+                    <p class="svc-desc">Classical Basti, oil therapies and herbs for spondylosis, arthritis and back pain.</p>
+                    <a href="#contact" class="svc-link"><span>Learn More</span>
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7" /></svg>
+                    </a>
+                </div>
+            </article>
+
+            <article class="svc-item">
+                <div class="svc-media">
+                    <div class="svc-circle"><img src="svc-allergy.jpg" alt="Allergy and headache care" class="svc-img" loading="lazy" /></div>
+                    <span class="svc-num">07</span>
+                    <span class="svc-icon" aria-hidden="true">✚</span>
+                </div>
+                <div class="svc-body">
+                    <h3 class="svc-title">Allergy &<br />Headache</h3>
+                    <p class="svc-desc">Nasya and herbal protocols for allergic rhinitis, sinus and migraine relief.</p>
+                    <a href="#contact" class="svc-link"><span>Learn More</span>
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7" /></svg>
+                    </a>
+                </div>
+            </article>
+
+            <article class="svc-item">
+                <div class="svc-media">
+                    <div class="svc-circle"><img src="svc-yoga.jpg" alt="Yoga and meditation" class="svc-img" loading="lazy" /></div>
+                    <span class="svc-num">08</span>
+                    <span class="svc-icon" aria-hidden="true">☀</span>
+                </div>
+                <div class="svc-body">
+                    <h3 class="svc-title">Yoga &<br />Meditation</h3>
+                    <p class="svc-desc">Guided asana, breathwork and meditation that strengthen mind, body and immunity.</p>
+                    <a href="#contact" class="svc-link"><span>Learn More</span>
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7" /></svg>
+                    </a>
+                </div>
+            </article>
+
+            <article class="svc-item">
+                <div class="svc-media">
+                    <div class="svc-circle"><img src="svc-consultation.jpg" alt="Personal health consultation" class="svc-img" loading="lazy" /></div>
+                    <span class="svc-num">09</span>
+                    <span class="svc-icon" aria-hidden="true">●</span>
+                </div>
+                <div class="svc-body">
+                    <h3 class="svc-title">Health<br />Consultation</h3>
+                    <p class="svc-desc">One-on-one diagnosis, dosha analysis and a personalised healing roadmap.</p>
+                    <a href="#contact" class="svc-link"><span>Learn More</span>
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7" /></svg>
+                    </a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- ======================== SECTION 4: WHY US ======================== -->
+    <section class="why" id="why">
+        <div class="why-inner">
+            <div class="why-content">
+                <span class="why-eyebrow"><i></i>Why Choose Us<i></i></span>
+                <h2 class="why-title">Your Trusted Ayurvedic <em>Wellness Partner</em></h2>
+                <p class="why-desc">At Shuddhi Wellness, we blend classical Ayurveda with modern care — personal diagnosis, authentic Panchakarma, pure herbal medicines and a peaceful healing space led by Dr. Garima Sharma.</p>
+
+                <ul class="why-grid">
+                    <li class="why-card">
+                        <span class="why-icon"><i class="fa-solid fa-house-medical"></i></span>
+                        <span class="why-card-text"><strong>Multi-Speciality Hospital</strong><em>Complete care under one roof</em></span>
+                        <span class="why-tick" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M6 12.5l4 4 8-9" stroke-linecap="round" stroke-linejoin="round" /></svg></span>
+                    </li>
+                    <li class="why-card">
+                        <span class="why-icon"><i class="fa-solid fa-spa"></i></span>
+                        <span class="why-card-text"><strong>Advanced Panchakarma Centre</strong><em>Authentic detox & rejuvenation</em></span>
+                        <span class="why-tick" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M6 12.5l4 4 8-9" stroke-linecap="round" stroke-linejoin="round" /></svg></span>
+                    </li>
+                    <li class="why-card">
+                        <span class="why-icon"><i class="fa-solid fa-user-doctor"></i></span>
+                        <span class="why-card-text"><strong>Experienced Ayurvedic Doctors</strong><em>Root-cause, personal guidance</em></span>
+                        <span class="why-tick" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M6 12.5l4 4 8-9" stroke-linecap="round" stroke-linejoin="round" /></svg></span>
+                    </li>
+                    <li class="why-card">
+                        <span class="why-icon"><i class="fa-solid fa-mortar-pestle"></i></span>
+                        <span class="why-card-text"><strong>Natural & Herbal Medicines</strong><em>Pure, safe, no side effects</em></span>
+                        <span class="why-tick" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M6 12.5l4 4 8-9" stroke-linecap="round" stroke-linejoin="round" /></svg></span>
+                    </li>
+                    <li class="why-card">
+                        <span class="why-icon"><i class="fa-solid fa-shield-halved"></i></span>
+                        <span class="why-card-text"><strong>Authentic & Safe Treatments</strong><em>Classical, hygienic protocols</em></span>
+                        <span class="why-tick" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M6 12.5l4 4 8-9" stroke-linecap="round" stroke-linejoin="round" /></svg></span>
+                    </li>
+                    <li class="why-card">
+                        <span class="why-icon"><i class="fa-solid fa-leaf"></i></span>
+                        <span class="why-card-text"><strong>Clean, Peaceful Environment</strong><em>Calm space that heals you</em></span>
+                        <span class="why-tick" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M6 12.5l4 4 8-9" stroke-linecap="round" stroke-linejoin="round" /></svg></span>
+                    </li>
+                </ul>
+
+                <div class="why-cta">
+                    <a href="#contact" class="why-btn-primary"><span>Book Consultation</span><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7" /></svg></a>
+                    <a href="tel:+919876543210" class="why-btn-ghost"><i class="fa-solid fa-phone"></i><span>Call the Clinic</span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================== SECTION 5: PORTFOLIO ======================== -->
+    <section class="portfolio" id="portfolio">
+        <div class="section-header">
+            <span class="section-tag">Our Care</span>
+            <h2 class="section-title">Healing <em>Stories</em></h2>
+            <p class="section-desc">Every recovery tells a story. Here are some of our proudest journeys.</p>
+        </div>
+
+        <div class="portfolio-grid">
+            <div class="portfolio-item portfolio-large" data-cursor="View Story">
+                <div class="portfolio-img" style="background: url('story-detox.jpg') center/cover no-repeat;">
+                </div>
+                <div class="portfolio-overlay">
+                    <span class="portfolio-cat">Panchakarma Detox</span>
+                    <h3 class="portfolio-name">Complete Body Purification</h3>
+                    <p class="portfolio-meta">Dehradun • Detox & Rejuvenation</p>
+                </div>
+                <div class="portfolio-line"></div>
+            </div>
+
+            <div class="portfolio-item portfolio-small" data-cursor="View Story">
+                <div class="portfolio-img" style="background: url('story-spine.jpg') center/cover no-repeat;"></div>
+                <div class="portfolio-overlay">
+                    <span class="portfolio-cat">Joint & Spine Care</span>
+                    <h3 class="portfolio-name">Relief from Spondylosis</h3>
+                    <p class="portfolio-meta">Dehradun • Pain & Stiffness Care</p>
+                </div>
+                <div class="portfolio-line"></div>
+            </div>
+
+            <div class="portfolio-item portfolio-medium" data-cursor="View Story">
+                <div class="portfolio-img" style="background: url('story-glow.jpg') center/cover no-repeat;"></div>
+                <div class="portfolio-overlay">
+                    <span class="portfolio-cat">Skin & Hair Care</span>
+                    <h3 class="portfolio-name">Natural Glow & Strength</h3>
+                    <p class="portfolio-meta">Dehradun • Herbal Care</p>
+                </div>
+                <div class="portfolio-line"></div>
+            </div>
+
+            <div class="portfolio-item portfolio-third" data-cursor="View Story">
+                <div class="portfolio-img" style="background: url('story-weight.jpg') center/cover no-repeat;">
+                </div>
+                <div class="portfolio-overlay">
+                    <span class="portfolio-cat">Weight Management</span>
+                    <h3 class="portfolio-name">Healthy Weight, Naturally</h3>
+                    <p class="portfolio-meta">Dehradun • Diet & Therapy</p>
+                </div>
+                <div class="portfolio-line"></div>
+            </div>
+
+            <div class="portfolio-item portfolio-third" data-cursor="View Story">
+                <div class="portfolio-img" style="background: url('story-breathe.jpg') center/cover no-repeat;">
+                </div>
+                <div class="portfolio-overlay">
+                    <span class="portfolio-cat">Allergy & Headache Care</span>
+                    <h3 class="portfolio-name">Breathe Easy, Live Light</h3>
+                    <p class="portfolio-meta">Dehradun • Rhinitis & Migraine</p>
+                </div>
+                <div class="portfolio-line"></div>
+            </div>
+
+            <div class="portfolio-item portfolio-third" data-cursor="View Story">
+                <div class="portfolio-img" style="background: url('story-yoga.jpg') center/cover no-repeat;"></div>
+                <div class="portfolio-overlay">
+                    <span class="portfolio-cat">Yoga & Wellness</span>
+                    <h3 class="portfolio-name">Mind, Soul & Balance</h3>
+                    <p class="portfolio-meta">Dehradun • Meditation & Yoga</p>
+                </div>
+                <div class="portfolio-line"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================== SECTION 6: TESTIMONIALS ======================== -->
+    <section class="testimonials" id="testimonials">
+        <div class="section-header">
+            <span class="section-tag">Patient Love</span>
+            <h2 class="section-title">Words That<br /><em>Heal Our Hearts</em></h2>
+        </div>
+
+        <div class="testimonials-container">
+            <div class="testimonial-display" id="testimonialDisplay">
+                <div class="testimonial-quote-mark">"</div>
+                <div class="testimonial-content" id="testimonialContent">
+                    <p class="testimonial-text" id="testimonialText">Shuddhi Wellness changed my life. My chronic back pain and stiffness reduced naturally with Panchakarma. Dr. Garima Sharma truly treats the root cause.</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-author-info">
+                            <h4 id="testimonialAuthor">Ritu & Amit Negi</h4>
+                            <p id="testimonialRole">Spondylosis Care — Dehradun</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-nav" id="testimonialNav">
+                <button class="testimonial-btn active" data-index="0">01</button>
+                <button class="testimonial-btn" data-index="1">02</button>
+                <button class="testimonial-btn" data-index="2">03</button>
+                <button class="testimonial-btn" data-index="3">04</button>
+                <div class="testimonial-progress">
+                    <div class="testimonial-progress-fill" id="testimonialProgressFill"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================== SECTION 7: STATS ======================== -->
+    <section class="stats" id="stats">
+        <div class="stats-bg">
+            <div class="stats-gradient"></div>
+        </div>
+        <div class="stats-inner">
+            <div class="stat" data-target="10000" data-suffix="+">
+                <div class="stat-number"><span class="stat-count">0</span><span class="stat-suffix">+</span></div>
+                <div class="stat-label">Happy Clients</div>
+                <div class="stat-line"></div>
+            </div>
+            <div class="stat" data-target="15" data-suffix="+">
+                <div class="stat-number"><span class="stat-count">0</span><span class="stat-suffix">+</span></div>
+                <div class="stat-label">Years Experience</div>
+                <div class="stat-line"></div>
+            </div>
+            <div class="stat" data-target="20" data-suffix="+">
+                <div class="stat-number"><span class="stat-count">0</span><span class="stat-suffix">+</span></div>
+                <div class="stat-label">Ayurvedic Therapies</div>
+                <div class="stat-line"></div>
+            </div>
+            <div class="stat" data-target="5000" data-suffix="+">
+                <div class="stat-number"><span class="stat-count">0</span><span class="stat-suffix">+</span></div>
+                <div class="stat-label">Panchakarma Sessions</div>
+                <div class="stat-line"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================== FINAL CTA ======================== -->
+    <section class="final-cta" id="contact">
+        <img src="final-cta-bg.png" alt="" class="final-cta-photo" aria-hidden="true" />
+        <canvas id="ctaParticles"></canvas>
+
+        <div class="final-cta-content">
+            <h2 class="final-cta-title">
+                <span class="fct-line">Your Healing Journey</span>
+                <span class="fct-line">Starts With <em>One Consultation</em>.</span>
+            </h2>
+            <p class="final-cta-sub">Tell us your health concern. We'll guide you to natural balance and wellness.</p>
+            <a href="mailto:hello@shuddhiwellness.co.in" class="btn btn-primary btn-large magnetic-btn" id="finalCtaBtn">
+                <span class="btn-bg"></span>
+                <span class="btn-text">Book Your Consultation</span>
+                <span class="btn-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2">
+            <path d="M5 12h14M12 5l7 7-7 7" />
+          </svg></span>
+                <span class="btn-shine"></span>
+            </a>
+        </div>
+    </section>
+
+
+
+    <!-- ======================== BLOG / WELLNESS JOURNAL ======================== -->
+    <section class="blog" id="blog">
+        <div class="section-header">
+            <span class="section-tag">Wellness Journal</span>
+            <h2 class="section-title">Wisdom For<br /><em>Healthy Living</em></h2>
+            <p class="section-desc">Ayurvedic wisdom, detox rituals and natural healing guides — by Dr. Garima Sharma.</p>
+        </div>
+
+        <div class="blog-carousel">
+            <button class="blog-arrow blog-prev" id="blogPrev" aria-label="Previous articles">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <path d="M15 18l-6-6 6-6" />
+        </svg>
+            </button>
+
+            <div class="blog-viewport">
+                <div class="blog-track" id="blogTrack">
+                    <article class="blog-card" data-cursor="Read">
+                        <div class="blog-media">
+                            <div class="blog-img" style="background: url('panchakarma-herbs.jpg') center/cover no-repeat;"></div>
+                            <span class="blog-cat">Panchakarma</span>
+                        </div>
+                        <div class="blog-body">
+                            <div class="blog-meta">
+                                <span>Sep 12, 2026</span>
+                                <span class="blog-dot"></span>
+                                <span>5 min read</span>
+                            </div>
+                            <h3 class="blog-title">5 Signs Your Body Needs a Panchakarma Detox</h3>
+                            <p class="blog-excerpt">Constant fatigue, dull skin, bloating and restless sleep? Learn how classical detox restores balance from within.</p>
+                            <a href="#blog" class="blog-link">
+                                <span>Read More</span>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M5 12h14M12 5l7 7-7 7" />
+                </svg>
+                            </a>
+                        </div>
+                        <div class="blog-line"></div>
+                    </article>
+
+                    <article class="blog-card" data-cursor="Read">
+                        <div class="blog-media">
+                            <div class="blog-img" style="background: url('hero-composition.jpg') center/cover no-repeat;"></div>
+                            <span class="blog-cat">Herbal Wisdom</span>
+                        </div>
+                        <div class="blog-body">
+                            <div class="blog-meta">
+                                <span>Sep 05, 2026</span>
+                                <span class="blog-dot"></span>
+                                <span>4 min read</span>
+                            </div>
+                            <h3 class="blog-title">Neem, Tulsi & Triphala: Everyday Herbs for Immunity</h3>
+                            <p class="blog-excerpt">Three timeless Ayurvedic herbs for skin, gut and immunity — how to use them safely at home.</p>
+                            <a href="#blog" class="blog-link">
+                                <span>Read More</span>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M5 12h14M12 5l7 7-7 7" />
+                </svg>
+                            </a>
+                        </div>
+                        <div class="blog-line"></div>
+                    </article>
+
+                    <article class="blog-card" data-cursor="Read">
+                        <div class="blog-media">
+                            <div class="blog-img" style="background: url('brand-therapy.jpg') center/cover no-repeat;"></div>
+                            <span class="blog-cat">Abhyanga Therapy</span>
+                        </div>
+                        <div class="blog-body">
+                            <div class="blog-meta">
+                                <span>Aug 28, 2026</span>
+                                <span class="blog-dot"></span>
+                                <span>6 min read</span>
+                            </div>
+                            <h3 class="blog-title">Why Warm Oil Massage Calms Pain, Stress & Vata</h3>
+                            <p class="blog-excerpt">Discover how Abhyanga eases joint stiffness, improves sleep and nourishes skin and hair naturally.</p>
+                            <a href="#blog" class="blog-link">
+                                <span>Read More</span>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M5 12h14M12 5l7 7-7 7" />
+                </svg>
+                            </a>
+                        </div>
+                        <div class="blog-line"></div>
+                    </article>
+
+                    <article class="blog-card" data-cursor="Read">
+                        <div class="blog-media">
+                            <div class="blog-img" style="background: url('slide-img-02.png') center/cover no-repeat;"></div>
+                            <span class="blog-cat">Dinacharya</span>
+                        </div>
+                        <div class="blog-body">
+                            <div class="blog-meta">
+                                <span>Aug 20, 2026</span>
+                                <span class="blog-dot"></span>
+                                <span>4 min read</span>
+                            </div>
+                            <h3 class="blog-title">Morning Dinacharya: 6 Rituals for Energy & Calm</h3>
+                            <p class="blog-excerpt">Oil pulling, warm water, self-massage and breathwork — a simple Ayurvedic morning for whole-day balance.</p>
+                            <a href="#blog" class="blog-link">
+                                <span>Read More</span>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M5 12h14M12 5l7 7-7 7" />
+                </svg>
+                            </a>
+                        </div>
+                        <div class="blog-line"></div>
+                    </article>
+
+                    <article class="blog-card" data-cursor="Read">
+                        <div class="blog-media">
+                            <div class="blog-img" style="background: url('slide-img-03.png') center/cover no-repeat;"></div>
+                            <span class="blog-cat">Weight Care</span>
+                        </div>
+                        <div class="blog-body">
+                            <div class="blog-meta">
+                                <span>Aug 12, 2026</span>
+                                <span class="blog-dot"></span>
+                                <span>5 min read</span>
+                            </div>
+                            <h3 class="blog-title">Ayurvedic Weight Loss Without Crash Diets</h3>
+                            <p class="blog-excerpt">Kindle your agni, fix meal timings and use herbs wisely — sustainable weight care the natural way.</p>
+                            <a href="#blog" class="blog-link">
+                                <span>Read More</span>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M5 12h14M12 5l7 7-7 7" />
+                </svg>
+                            </a>
+                        </div>
+                        <div class="blog-line"></div>
+                    </article>
+
+                    <article class="blog-card" data-cursor="Read">
+                        <div class="blog-media">
+                            <div class="blog-img" style="background: url('slide-img-04.png') center/cover no-repeat;"></div>
+                            <span class="blog-cat">Skin & Hair</span>
+                        </div>
+                        <div class="blog-body">
+                            <div class="blog-meta">
+                                <span>Aug 02, 2026</span>
+                                <span class="blog-dot"></span>
+                                <span>6 min read</span>
+                            </div>
+                            <h3 class="blog-title">Glow Naturally: Ayurveda for Skin & Hair</h3>
+                            <p class="blog-excerpt">From Kumkumadi taila to hibiscus masks — gentle herbal rituals for glow, strength and shine.</p>
+                            <a href="#blog" class="blog-link">
+                                <span>Read More</span>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M5 12h14M12 5l7 7-7 7" />
+                </svg>
+                            </a>
+                        </div>
+                        <div class="blog-line"></div>
+                    </article>
+                </div>
+            </div>
+
+            <button class="blog-arrow blog-next" id="blogNext" aria-label="Next articles">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <path d="M9 18l6-6-6-6" />
+        </svg>
+            </button>
+        </div>
+
+        <div class="blog-dots" id="blogDots"></div>
+
+        <div class="blog-cta-wrap">
+            <a href="#contact" class="btn btn-secondary btn-large">
+                <span class="btn-border"></span>
+                <span class="btn-text">Ask Us About Your Concern</span>
+                <span class="btn-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M5 12h14M12 5l7 7-7 7" />
+          </svg></span>
+            </a>
+        </div>
+    </section>
+
+
+    <!-- ======================== CONTACT ======================== -->
+    <section class="contact" id="contact-form">
+        <div class="section-header">
+            <span class="section-tag">Contact Us</span>
+            <h2 class="section-title">Get In <em>Touch</em></h2>
+            <p class="section-desc">Share your health concern — Dr. Garima Sharma's team will call you back shortly.</p>
+        </div>
+
+        <div class="contact-wrap">
+            <!-- Left : Form (70%) -->
+            <div class="contact-form-card">
+                <span class="contact-eyebrow"><i></i>Get In Touch<i></i></span>
+                <h3 class="contact-form-title">Book Your <em>Consultation</em></h3>
+                <p class="contact-form-sub">Share your health concern — Dr. Garima Sharma's team will call you back shortly.</p>
+                <form id="contactForm" class="contact-form" novalidate>
+                    <div class="contact-row">
+                        <div class="contact-field">
+                            <label for="cfName">Your Name *</label>
+                            <input type="text" id="cfName" name="name" placeholder="e.g. Priya Rawat" required autocomplete="name" />
+                        </div>
+                        <div class="contact-field">
+                            <label for="cfPhone">Phone Number *</label>
+                            <input type="tel" id="cfPhone" name="phone" placeholder="+91 98765 43210" required autocomplete="tel" pattern="[0-9+() -]{8,16}" />
+                        </div>
+                    </div>
+                    <div class="contact-row">
+                        <div class="contact-field">
+                            <label for="cfEmail">Email</label>
+                            <input type="email" id="cfEmail" name="email" placeholder="you@example.com" autocomplete="email" />
+                        </div>
+                        <div class="contact-field">
+                            <label for="cfConcern">Health Concern *</label>
+                            <select id="cfConcern" name="concern" required>
+                                <option value="" disabled selected>Select your concern</option>
+                                <option>Panchakarma Detox</option>
+                                <option>Joint / Spine / Spondylosis</option>
+                                <option>Skin & Hair Care</option>
+                                <option>Weight Management</option>
+                                <option>Allergy / Migraine</option>
+                                <option>Yoga & Meditation</option>
+                                <option>General Consultation</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="contact-field">
+                        <label for="cfMsg">Your Message</label>
+                        <textarea id="cfMsg" name="message" rows="4" placeholder="Briefly describe your symptoms, duration, reports if any…"></textarea>
+                    </div>
+                    <div class="contact-actions">
+                        <button type="submit" class="contact-submit"><span>Request Callback</span><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7" /></svg></button>
+                        <span class="contact-privacy">No spam. Your details stay private.</span>
+                    </div>
+                    <p class="contact-success" id="contactSuccess" role="status" aria-live="polite" hidden>✓ Thank you! Your request is received — we will call you back soon.</p>
+                </form>
+            </div>
+
+            <!-- Right : Quote + quick contact (30%) -->
+            <aside class="contact-side">
+                <span class="contact-side-eyebrow"><i></i>Ayurveda Says</span>
+                <h3 class="contact-side-title">Healing Begins <em>Within</em></h3>
+                <div class="contact-quote-mark" aria-hidden="true">“</div>
+                <blockquote class="contact-quote">When diet is wrong, medicine is of no use. When diet is correct, medicine is of no need.</blockquote>
+                <cite class="contact-quote-by">— Ayurvedic Proverb</cite>
+                <div class="contact-side-divider" aria-hidden="true"></div>
+                <ul class="contact-quick">
+                    <li><a href="tel:+919876543210"><span class="contact-quick-icon"><i class="fa-solid fa-phone"></i></span><span><strong>Call the Clinic</strong><em>+91 98765 43210</em></span></a></li>
+                    <li><a href="mailto:hello@shuddhiwellness.co.in"><span class="contact-quick-icon"><i class="fa-solid fa-envelope"></i></span><span><strong>Email Us</strong><em>hello@shuddhiwellness.co.in</em></span></a></li>
+                    <li><span class="contact-quick-row"><span class="contact-quick-icon"><i class="fa-solid fa-clock"></i></span><span><strong>Clinic Hours</strong><em>Mon – Sat · 10 AM – 7 PM</em></span></span>
+                    </li>
+                </ul>
+                <a class="contact-side-btn" href="https://www.google.com/maps/dir/?api=1&destination=30.2937993,78.053717" target="_blank" rel="noopener"><i class="fa-solid fa-location-dot"></i><span>Get Directions</span></a>
+            </aside>
+        </div>
+    </section>
+
+    <!-- ======================== OUR LOCATION ======================== -->
+    <section class="location" id="location">
+        <div class="section-header">
+            <span class="section-tag">Visit Us</span>
+            <h2 class="section-title">Our <em>Location</em></h2>
+            <p class="section-desc">Visit our clinic for consultation, Panchakarma & natural healing.</p>
+        </div>
+
+        <div class="map">
+            <iframe title="Shuddhi Wellness Location Map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3445.0092146345833!2d78.05371699999999!3d30.2937993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3909293130488ded%3A0x86ab75a811144be4!2sShuddhi%20Wellness%20By%20Dr.Garima%20Sharma%20%7C%20Multi-Speciality%20Ayurvedic%20Hospital%20%7C%20Panchakarma%20Centre%20%7C%20Ayurvedic%20Centre!5e0!3m2!1sen!2sin!4v1790320704584!5m2!1sen!2sin"
+                style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            <div class="map-pin-card" id="mapPinCard">
+                <button class="map-pin-close" id="mapPinClose" aria-label="Close location card">×</button>
+                <img src="buliding.png" alt="Shuddhi Wellness clinic building" class="map-pin-photo" />
+                <div class="map-pin-body">
+                    <strong class="map-pin-name">Shuddhi Wellness</strong>
+                    <span class="map-pin-sub">Ayurvedic Clinic & Panchakarma Centre</span>
+                    <a class="map-pin-directions" href="https://www.google.com/maps/dir/?api=1&destination=30.2937993,78.053717" target="_blank" rel="noopener">Get Directions →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ======================== INSTAGRAM FEED ======================== -->
+    <section class="insta" id="instagram">
+        <div class="section-header">
+            <span class="section-tag">Instagram</span>
+            <h2 class="section-title">Follow Our <em>Healing Journey</em></h2>
+            <p class="section-desc">Daily Ayurvedic tips, clinic moments &amp; patient stories &mdash; <a class="insta-handle" href="https://www.instagram.com/shuddhiwellness" target="_blank" rel="noopener">@shuddhiwellness</a></p>
+        </div>
+
+        <!-- View Controls & Slider Navigation -->
+        <div class="insta-controls-wrap">
+            <div class="insta-view-switch" role="tablist" aria-label="Instagram View Options">
+                <button class="insta-switch-btn active" id="instaViewSlider" type="button" aria-selected="true">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+                    <span>1-Line Carousel</span>
+                </button>
+                <button class="insta-switch-btn" id="instaViewGrid" type="button" aria-selected="false">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/></svg>
+                    <span>Grid View</span>
+                </button>
+            </div>
+
+            <div class="insta-nav-arrows" id="instaNavArrows">
+                <button class="insta-nav-btn prev" id="instaPrev" type="button" aria-label="Previous Posts">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M15 18l-6-6 6-6"/></svg>
+                </button>
+                <span class="insta-slider-counter" id="instaSliderCounter">1 / 4</span>
+                <button class="insta-nav-btn next" id="instaNext" type="button" aria-label="Next Posts">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 18l6-6-6-6"/></svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Viewport Container (default: 1-Line slider mode) -->
+        <div class="insta-viewport mode-slider" id="instaViewport">
+            <div class="insta-track" id="instaTrack">
+                <div class="insta-embed-card">
+                    <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DdQsuKbMdEx/" data-instgrm-version="14"><a href="https://www.instagram.com/p/DdQsuKbMdEx/" target="_blank" rel="noopener">View post on Instagram</a></blockquote>
+                    <a class="insta-card-footer" href="https://www.instagram.com/p/DdQsuKbMdEx/" target="_blank" rel="noopener">
+                        <span><i class="fa-brands fa-instagram"></i> @shuddhiwellness</span>
+                        <span class="insta-footer-view">View Post &rarr;</span>
+                    </a>
+                </div>
+                <div class="insta-embed-card">
+                    <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DQzBuZYksKb/" data-instgrm-version="14"><a href="https://www.instagram.com/p/DQzBuZYksKb/" target="_blank" rel="noopener">View post on Instagram</a></blockquote>
+                    <a class="insta-card-footer" href="https://www.instagram.com/p/DQzBuZYksKb/" target="_blank" rel="noopener">
+                        <span><i class="fa-brands fa-instagram"></i> @shuddhiwellness</span>
+                        <span class="insta-footer-view">View Post &rarr;</span>
+                    </a>
+                </div>
+                <div class="insta-embed-card">
+                    <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DQ4K3-9EivH/" data-instgrm-version="14"><a href="https://www.instagram.com/p/DQ4K3-9EivH/" target="_blank" rel="noopener">View post on Instagram</a></blockquote>
+                    <a class="insta-card-footer" href="https://www.instagram.com/p/DQ4K3-9EivH/" target="_blank" rel="noopener">
+                        <span><i class="fa-brands fa-instagram"></i> @shuddhiwellness</span>
+                        <span class="insta-footer-view">View Post &rarr;</span>
+                    </a>
+                </div>
+                <div class="insta-embed-card">
+                    <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DQ0shO4EltY/" data-instgrm-version="14"><a href="https://www.instagram.com/p/DQ0shO4EltY/" target="_blank" rel="noopener">View post on Instagram</a></blockquote>
+                    <a class="insta-card-footer" href="https://www.instagram.com/p/DQ0shO4EltY/" target="_blank" rel="noopener">
+                        <span><i class="fa-brands fa-instagram"></i> @shuddhiwellness</span>
+                        <span class="insta-footer-view">View Post &rarr;</span>
+                    </a>
+                </div>
+                <div class="insta-embed-card">
+                    <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DXMxpiCkjks/" data-instgrm-version="14"><a href="https://www.instagram.com/p/DXMxpiCkjks/" target="_blank" rel="noopener">View post on Instagram</a></blockquote>
+                    <a class="insta-card-footer" href="https://www.instagram.com/p/DXMxpiCkjks/" target="_blank" rel="noopener">
+                        <span><i class="fa-brands fa-instagram"></i> @shuddhiwellness</span>
+                        <span class="insta-footer-view">View Post &rarr;</span>
+                    </a>
+                </div>
+                <div class="insta-embed-card">
+                    <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DRChNf2kkg7/" data-instgrm-version="14"><a href="https://www.instagram.com/p/DRChNf2kkg7/" target="_blank" rel="noopener">View post on Instagram</a></blockquote>
+                    <a class="insta-card-footer" href="https://www.instagram.com/p/DRChNf2kkg7/" target="_blank" rel="noopener">
+                        <span><i class="fa-brands fa-instagram"></i> @shuddhiwellness</span>
+                        <span class="insta-footer-view">View Post &rarr;</span>
+                    </a>
+                </div>
+                <div class="insta-embed-card">
+                    <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DQGftTDEgC4/" data-instgrm-version="14"><a href="https://www.instagram.com/p/DQGftTDEgC4/" target="_blank" rel="noopener">View post on Instagram</a></blockquote>
+                    <a class="insta-card-footer" href="https://www.instagram.com/p/DQGftTDEgC4/" target="_blank" rel="noopener">
+                        <span><i class="fa-brands fa-instagram"></i> @shuddhiwellness</span>
+                        <span class="insta-footer-view">View Post &rarr;</span>
+                    </a>
+                </div>
+                <div class="insta-embed-card">
+                    <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DQDuks2EmS5/" data-instgrm-version="14"><a href="https://www.instagram.com/p/DQDuks2EmS5/" target="_blank" rel="noopener">View post on Instagram</a></blockquote>
+                    <a class="insta-card-footer" href="https://www.instagram.com/p/DQDuks2EmS5/" target="_blank" rel="noopener">
+                        <span><i class="fa-brands fa-instagram"></i> @shuddhiwellness</span>
+                        <span class="insta-footer-view">View Post &rarr;</span>
+                    </a>
+                </div>
+                <div class="insta-embed-card">
+                    <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DQBF6ixktgs/" data-instgrm-version="14"><a href="https://www.instagram.com/p/DQBF6ixktgs/" target="_blank" rel="noopener">View post on Instagram</a></blockquote>
+                    <a class="insta-card-footer" href="https://www.instagram.com/p/DQBF6ixktgs/" target="_blank" rel="noopener">
+                        <span><i class="fa-brands fa-instagram"></i> @shuddhiwellness</span>
+                        <span class="insta-footer-view">View Post &rarr;</span>
+                    </a>
+                </div>
+                <div class="insta-embed-card">
+                    <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DP8NJHeEsMd/" data-instgrm-version="14"><a href="https://www.instagram.com/p/DP8NJHeEsMd/" target="_blank" rel="noopener">View post on Instagram</a></blockquote>
+                    <a class="insta-card-footer" href="https://www.instagram.com/p/DP8NJHeEsMd/" target="_blank" rel="noopener">
+                        <span><i class="fa-brands fa-instagram"></i> @shuddhiwellness</span>
+                        <span class="insta-footer-view">View Post &rarr;</span>
+                    </a>
+                </div>
+                <div class="insta-embed-card">
+                    <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DP3gDLAEmn2/" data-instgrm-version="14"><a href="https://www.instagram.com/p/DP3gDLAEmn2/" target="_blank" rel="noopener">View post on Instagram</a></blockquote>
+                    <a class="insta-card-footer" href="https://www.instagram.com/p/DP3gDLAEmn2/" target="_blank" rel="noopener">
+                        <span><i class="fa-brands fa-instagram"></i> @shuddhiwellness</span>
+                        <span class="insta-footer-view">View Post &rarr;</span>
+                    </a>
+                </div>
+                <div class="insta-embed-card">
+                    <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DbzzUmQsgaS/" data-instgrm-version="14"><a href="https://www.instagram.com/reel/DbzzUmQsgaS/" target="_blank" rel="noopener">Watch reel on Instagram</a></blockquote>
+                    <a class="insta-card-footer" href="https://www.instagram.com/reel/DbzzUmQsgaS/" target="_blank" rel="noopener">
+                        <span><i class="fa-brands fa-instagram"></i> @shuddhiwellness</span>
+                        <span class="insta-footer-view">View Reel &rarr;</span>
+                    </a>
+                </div>
+                <div class="insta-embed-card">
+                    <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/Dbfe36ZstLV/" data-instgrm-version="14"><a href="https://www.instagram.com/reel/Dbfe36ZstLV/" target="_blank" rel="noopener">Watch reel on Instagram</a></blockquote>
+                    <a class="insta-card-footer" href="https://www.instagram.com/reel/Dbfe36ZstLV/" target="_blank" rel="noopener">
+                        <span><i class="fa-brands fa-instagram"></i> @shuddhiwellness</span>
+                        <span class="insta-footer-view">View Reel &rarr;</span>
+                    </a>
+                </div>
+                <div class="insta-embed-card">
+                    <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DWa2EFjku4j/" data-instgrm-version="14"><a href="https://www.instagram.com/reel/DWa2EFjku4j/" target="_blank" rel="noopener">Watch reel on Instagram</a></blockquote>
+                    <a class="insta-card-footer" href="https://www.instagram.com/reel/DWa2EFjku4j/" target="_blank" rel="noopener">
+                        <span><i class="fa-brands fa-instagram"></i> @shuddhiwellness</span>
+                        <span class="insta-footer-view">View Reel &rarr;</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Follow CTA -->
+        <div class="insta-actions">
+            <a class="insta-follow" href="https://www.instagram.com/shuddhiwellness" target="_blank" rel="noopener">
+                <i class="fa-brands fa-instagram"></i>
+                <span>Follow @shuddhiwellness on Instagram</span>
+            </a>
+        </div>
+    </section>
+    <script async src="https://www.instagram.com/embed.js"></script>
+
+    <!-- ======================== FOOTER ======================== -->
+    <footer class="footer" id="footer">
+        <img src="footer-left-flower.png" alt="" class="footer-left-flower" aria-hidden="true" />
+        <img src="footer-right-flower.png" alt="" class="footer-right-flower" aria-hidden="true" />
+        <div class="footer-divider">
+            <div class="footer-divider-line"></div>
+            <div class="footer-divider-ornament">✦</div>
+            <div class="footer-divider-line"></div>
+        </div>
+
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <a href="#" class="footer-logo"><img src="subh-logo-horizontal.png" alt="Shuddhi Wellness Logo" class="site-logo"></a>
+                <p class="footer-tagline">A holistic place for complete wellness — authentic Ayurveda & Panchakarma in Dehradun.</p>
+                <div class="footer-social">
+                    <a href="#" class="footer-social-link" aria-label="Instagram">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <rect x="2" y="2" width="20" height="20" rx="5" />
+              <circle cx="12" cy="12" r="5" />
+              <circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" />
+            </svg>
+                    </a>
+                    <a href="#" class="footer-social-link" aria-label="Facebook">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" />
+            </svg>
+                    </a>
+                    <a href="#" class="footer-social-link" aria-label="YouTube">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path
+                d="M22.54 6.42a2.78 2.78 0 00-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 00-1.94 2A29 29 0 001 11.75a29 29 0 00.46 5.33A2.78 2.78 0 003.4 19.1c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 001.94-2 29 29 0 00.46-5.25 29 29 0 00-.46-5.43z" />
+              <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" fill="currentColor" />
+            </svg>
+                    </a>
+                    <a href="#" class="footer-social-link" aria-label="Pinterest">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <circle cx="12" cy="12" r="10" />
+              <path d="M8 12c0-2.2 1.8-4 4-4s4 1.8 4 4c0 2.5-2 4-3.5 4-.8 0-1.2-.5-1-1.2l1.2-4.8" />
+            </svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <a href="#journey">Our Process</a>
+                    <a href="#events">Treatments</a>
+                    <a href="#portfolio">Healing Stories</a>
+                    <a href="#testimonials">Testimonials</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Treatments</h4>
+                    <a href="#">Panchakarma Detox</a>
+                    <a href="#">Weight Management</a>
+                    <a href="#">Skin & Hair Care</a>
+                    <a href="#">Joint & Spine Care</a>
+                    <a href="#">Yoga & Meditation</a>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <a href="mailto:hello@shuddhiwellness.co.in">hello@shuddhiwellness.co.in</a>
+                    <a href="tel:+919876543210">+91 98765 43210</a>
+                    <p class="footer-address">Dehradun, India</p>
+                </div>
+                <div class="footer-col footer-hours">
+                    <h4>Business Hours</h4>
+                    <ul class="footer-hours-list">
+                        <li><span class="hours-day">Monday</span><span class="hours-time">11:00 am – 8:00 pm</span></li>
+                        <li><span class="hours-day">Tuesday</span><span class="hours-time">11:00 am – 8:00 pm</span></li>
+                        <li><span class="hours-day">Wednesday</span><span class="hours-time">11:00 am – 8:00 pm</span></li>
+                        <li><span class="hours-day">Thursday</span><span class="hours-time">11:00 am – 8:00 pm</span></li>
+                        <li><span class="hours-day">Friday</span><span class="hours-time">11:00 am – 8:00 pm</span></li>
+                        <li><span class="hours-day">Saturday</span><span class="hours-time">11:00 am – 8:00 pm</span></li>
+                        <li><span class="hours-day">Sunday</span><span class="hours-time">11:00 am – 8:00 pm</span></li>
+                    </ul>
+                    <p class="footer-open-badge"><span class="open-dot"></span>Open All 7 Days</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 Shuddhi Wellness by Dr. Garima Sharma. All rights reserved.</p>
+            <button class="back-to-top magnetic-btn" id="backToTop" aria-label="Back to top">
+        <i class="fa-solid fa-arrow-up"></i>
+      </button>
+        </div>
+    </footer>
+
+    <!-- Floating Contact Menu -->
+    <div class="nxq-float-menu closed">
+
+        <a href="tel:+919876543210" class="nxq-float-btn nxq-call-btn" aria-label="Call Us">
+            <i class="fa-solid fa-phone"></i>
+            <span class="nxq-float-text">Call Us</span>
+        </a>
+        <a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer" class="nxq-float-btn nxq-whatsapp-btn" aria-label="WhatsApp">
+            <i class="fa-brands fa-whatsapp"></i>
+            <span class="nxq-float-text">WhatsApp</span>
+        </a><button class="nxq-float-btn nxq-doctor-btn" id="nxqDoctorToggle" aria-label="Talk to a Doctor" type="button">
+      <img src="doc-avatar.png" alt="" class="nxq-doctor-avatar">
+    </button>
+    </div>
+
+    <!-- GSAP CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+    <script src="therapy.js"></script>
+</body>
+
+</html>
